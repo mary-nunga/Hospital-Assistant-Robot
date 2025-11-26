@@ -81,3 +81,27 @@ Screenshots and test clips are included in the photos/ and videos/ folders.
 
 **Demo video link:** https://drive.google.com/file/d/1LzmaI2o7zKeHk_qB2Ba0mEwqdXBLG7g-/view?usp=drive_link
 
+## Progress & Limitations
+**What worked:**
+
+-Individual hardware components (motors, sensors, servo, pump)
+
+-Web app interface and Raspberry Pi server
+
+-Serial communication tests
+
+-Simulations for obstacle sensing and movement
+
+-Full hardware assembly with 3D-printed parts
+
+## Challenges during final testing:
+
+-Motor movement was inconsistent during the last lab session
+
+-Pump stopped responding after earlier tests
+
+-Web app → Pi → Arduino communication became unstable
+
+-Some real-time updates lagged or glitched
+
+These issues are typical of hardware integration and can be resolved with more debugging time (especially power management and serial timing). The core architecture, however, is fully implemented.
